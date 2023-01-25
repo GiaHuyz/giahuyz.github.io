@@ -1,0 +1,76 @@
+@media only screen and (max-width: 63.9375em) {
+    .button {
+        padding: 16px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-submit-button{
+        font-size: 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .socials-list {
+        font-size: 48px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important; 
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-icon {
+        display: none;
+    }
+    #header .mobile-menu-button{
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav li a {
+        /* chieu cao 46-48 cho mobile de thao bam vao */
+        padding: 1px 24px; 
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 32px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+}
